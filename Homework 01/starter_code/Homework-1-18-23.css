@@ -1,0 +1,47 @@
+body {
+    color: #05080C;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background: #F6F6F6;
+
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+header {
+    border-top: 5px solid #222222;
+
+}
+
+article {
+    border-bottom: 5px solid #222222;
+}
+
+article img {
+    float: right;
+}
+
+th {
+    color: #ffffff;
+    background-color: #222222;
+}
+
+td {
+    background-color: #eeeeee;
+}
+
+a:hover {
+background-color: powderblue;
+}
+
+ol, article {
+list-style-type: upper-roman;
+}
+
+ul {
+list-style: upper-roman;
+}
