@@ -14,11 +14,13 @@ p {
 
 header {
     border-top: 5px solid #222222;
+    padding: 50px;
 
 }
 
 article {
     border-bottom: 5px solid #222222;
+    padding: 50px;
 }
 
 article img {
@@ -29,10 +31,12 @@ article img {
 th {
     color: #ffffff;
     background-color: #222222;
+    padding: 5px;
 }
 
 td {
     background-color: #eeeeee;
+    padding: 5px;
 }
 
 a:hover {
