@@ -9,7 +9,7 @@ body {
 
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+
 }
 
 header {
@@ -35,13 +35,14 @@ td {
 }
 
 a:hover {
-background-color: powderblue;
+    background-color: powderblue;
 }
 
-ol, article {
-list-style-type: upper-roman;
+ol,
+article {
+    list-style-type: upper-roman;
 }
 
 ul {
-list-style: upper-roman;
+    list-style: upper-roman;
 }
