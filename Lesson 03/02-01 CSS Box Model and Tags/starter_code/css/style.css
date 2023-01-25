@@ -6,6 +6,7 @@ body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 300;
 }
+
 a {
   text-decoration: none;
 }
@@ -35,22 +36,28 @@ a {
 }
 
 .relaxr-corestyles p.featuredText {
-  font-style:italic;
+  font-style: italic;
   font-size: 30px;
 }
+
 .relaxr-corestyles strong {
-  font-weight:bold;
+  font-weight: bold;
 }
 
 .relaxr-corestyles em {
-  font-style:italic;
+  font-style: italic;
 }
 
 .relaxr-corestyles p.featuredText em {
   font-style: normal;
 }
 
-.relaxr-corestyles h1, .relaxr-corestyles h2, .relaxr-corestyles h3, .relaxr-corestyles h4, .relaxr-corestyles h5,.relaxr-corestyles h6 {
+.relaxr-corestyles h1,
+.relaxr-corestyles h2,
+.relaxr-corestyles h3,
+.relaxr-corestyles h4,
+.relaxr-corestyles h5,
+.relaxr-corestyles h6 {
   color: #033048;
   font-weight: 600;
   margin-top: 16px;
@@ -84,11 +91,13 @@ a {
   text-transform: uppercase;
 }
 
-.relaxr-corestyles ul, .relaxr-corestyles ol {
+.relaxr-corestyles ul,
+.relaxr-corestyles ol {
   margin: 30px 0 30px 80px;
 }
 
-.relaxr-corestyles ul ul, .relaxr-corestyles ol ol {
+.relaxr-corestyles ul ul,
+.relaxr-corestyles ol ol {
   margin: 12px 0 12px 40px;
 }
 
@@ -100,7 +109,7 @@ a {
   list-style: disc;
 }
 
-.relaxr-corestyles > ol > li > ol {
+.relaxr-corestyles>ol>li>ol {
   list-style: upper-roman;
 }
 
@@ -108,7 +117,59 @@ a {
   list-style: decimal;
 }
 
+.contentImage {
+  box-sizing: border-box;
+  width: 50%;
+  border: 3px solid #131e27;
 
+}
+
+.contentImage {
+  box-sizing: border-box;
+  width: 50%;
+  border: 3px solid #131e27;
+}
+
+.contentImage {
+  box-sizing: content-box;
+  width: 474px;
+  border: 3px solid #131e27;
+}
+
+/*Feature Box */
+
+.featureBox {
+  box-sizing: border-box;
+  width: 50%;
+  background: #f9e42e;
+  padding: 20px;
+
+}
+
+.featureBox h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.featureBox ul,
+.fearureBox ol {
+  margin-left: 30px;
+
+}
+
+.featureBox strong {
+  background: #eaeaea;
+  border: 1px solid #aaa;
+  padding: 3px;
+  color: black;
+
+}
+
+/* Check this bonus */
+
+.featureBox>*:first-child {
+  margin-top: 0;
+}
 
 /* Footer */
 .pageFooter {
@@ -123,5 +184,3 @@ a {
   color: #fff;
   font-weight: 600;
 }
-
-
