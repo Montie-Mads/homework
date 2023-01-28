@@ -14,6 +14,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
   padding: 15px 0;
+  
 }
 
 
@@ -35,7 +36,7 @@ p {
 /* ############################## */
 .site_header {
   background-color: #000;
-  border-bottom: 5px solid #f2ff00;
+  border-bottom: 10px solid #f2ff00;
   padding: 10px 30px;
   display: flex;
   align-items: center;
