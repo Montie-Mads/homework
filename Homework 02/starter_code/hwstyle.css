@@ -1,0 +1,101 @@
+/* ################################################## */
+/* ########### Global classes / overrides ########### */
+/* ################################################## */
+
+.logo a {
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
+  color: #f2ff00;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: 'Merriweather';
+
+
+}
+
+
+.header {
+  display: flex;
+  border-bottom: 10px solid #f2ff00;
+  background-color: black;
+  text-decoration: none;
+  padding: 10px 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-nav-item-featured {
+  text-transform: uppercase;
+  font-family: 'Oswald, sans-serif';
+}
+
+
+html,
+body {
+  height: 100%;
+  font-family: 'Lato';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 15px 0;
+
+}
+
+
+.main-nav ul,
+.main-nav li a {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'Oswald';
+  display: flex;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  gap: 12px;
+  margin: 0px;
+  justify-content: flex-end;
+}
+
+.main-nav li {
+  padding: 15px;
+}
+
+.main-nav li a:hover {
+  color: #f2ff00;
+}
+
+/* Fonts, classes are so I can reuse the styles on a variety of elements */
+.merriweather {
+  font-family: 'Merriweather', serif;
+}
+
+.oswald {
+  font-family: 'Oswald', sans-serif;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Colors */
+/* Dark yellow: #f2ff00 */
+/* Lighter yellow: #ffd900 */
+/* Light gray: #adadad */
+/* Medium gray: #878787 */
+
+/* Background Image */
+/* https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg */

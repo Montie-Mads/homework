@@ -1,4 +1,42 @@
 
-p {
+ul {
     color: orange;
+}
+
+
+.exerciseFooter, .exerciseMain, .exerciseHeader {
+    margin: 0 10px 10px 10px;
+}
+
+.exerciseHeader {
+    display:flex;
+    /* justify-content: space-between; */
+}
+
+.exerciseHeaderLogo {
+    width: 200px;
+    height: 80px;
+}
+
+
+.exerciseHeaderNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+}
+
+.exerciseHeaderNav ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.exerciseHeaderNav ul li {
+    min-width: 80px;
+
+
 }
