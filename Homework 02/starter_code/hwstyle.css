@@ -56,8 +56,11 @@ p {
 }
 
 
-.main-nav ul,
-.main-nav li a {
+/* This code below may be conflicting with featured */
+
+.main-nav,
+ul,
+li a {
   font-size: 20px;
   text-transform: uppercase;
   font-family: 'Oswald';
@@ -70,16 +73,131 @@ p {
   justify-content: flex-end;
 }
 
+.main-nav-item {
+  font-family: '';
+}
+
 .main-nav li {
   padding: 15px;
 }
 
-.main-nav li a:hover {
+.main-nav li a:hover,
+.main-nav-item-featured {
   color: #f2ff00;
 }
 
+/* Above is the css with mix of solution code and my own code to play around with. below is css used with better grasp of naming containers */
+
+/* brain box area  */
+
+.brain {
+  background-color: #adadad;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  font-family: 'Lato';
+
+}
+
+.brain p {
+  font-size: 28px;
+  margin: 0;
+}
+
+
+.underline {
+  border-bottom: 4px solid #f2ff00;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+/* Meet Box Area */
+
+.matchBox {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg) center no-repeat;
+  background-size: cover;
+  display: flex;
+  min-height: 60%;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: 'Lato', 'sans-serif';
+}
+
+
+.matchbox h2 {
+  font-weight: bold;
+}
+
+.matchInsert {
+  background-color: rgba(255, 255, 255, 0.864);
+  margin: 25px 25px 25px 0px;
+  padding: 25px;
+  width: 380px;
+  height: 230px;
+  padding: 4%;
+  box-shadow: 0 0 5px;
+}
+
+.CreateB {
+  background-color: #f2ff00;
+  border-bottom: 2px solid #ffd900;
+
+}
+
+.bMatch {
+  border-radius: 5px;
+  color: black;
+  padding: 10px 30px;
+  display: block;
+  font-size: 24;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Oswald';
+}
+
+.containerMatch h1 {
+  font-family: 'Merriweather';
+  font-size: 24px;
+
+}
+
+.containerMatch .bMatch {
+  background-color: #adadad;
+  border-bottom: 2px solid #878787;
+}
+
+.matchThree {
+  display: flex;
+  justify-content: center;
+}
+
+.containerMatch {
+  border-right: 1px solid lightgray;
+  margin: 10px 0;
+  padding: 2%;
+}
+
+.containerMatch:last-child {
+  border-right: none;
+}
+
+
+/* footer section */
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 15px 25px;
+}
+
+
+
+
 /* Fonts, classes are so I can reuse the styles on a variety of elements */
-.merriweather {
+/* .merriweather {
   font-family: 'Merriweather', serif;
 }
 
@@ -89,7 +207,9 @@ p {
 
 .lato {
   font-family: 'Lato', sans-serif;
-}
+} */
+
+
 
 /* Colors */
 /* Dark yellow: #f2ff00 */
