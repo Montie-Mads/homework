@@ -2,21 +2,11 @@
 /* ########### Global classes / overrides ########### */
 /* ################################################## */
 
-.logo a {
-  font-size: 32px;
-  display: flex;
-  align-items: center;
-  padding: 10px 30px;
-  color: #f2ff00;
-  text-decoration: none;
-  text-transform: capitalize;
-  font-family: 'Merriweather';
 
 
-}
+/* new header ul code */
 
-
-.header {
+.Matchheader {
   display: flex;
   border-bottom: 10px solid #f2ff00;
   background-color: black;
@@ -26,16 +16,52 @@
   justify-content: space-between;
 }
 
-.main-nav-item-featured {
+.Matchheader h1 {
+  font-size: 32px;
+  text-transform: capitalize;
+  font-family: 'Merriweather', serif;
+  /* forgot the comma to seperate the fonts. wasn't going through */
+  padding: 15px 5px 0;
+}
+
+.Matchheader h1,
+.Matchheader h1 a,
+.Matchheader h1 a:visited {
+  color: #f2ff00;
+  text-decoration: none;
+}
+
+.matchNav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  padding: 15px 0;
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+}
+
+.matchNav li {
+  padding: 15px;
+}
+
+.matchNav li,
+.matchNav li a,
+.matchNav li a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.matchNavFind {
   text-transform: uppercase;
-  font-family: 'Oswald, sans-serif';
+  font-family: 'Oswald', sans-serif;
 }
 
 
 html,
 body {
   height: 100%;
-  font-family: 'Lato';
+  font-family: 'Lato' sans-serif;
 }
 
 h1,
@@ -54,39 +80,6 @@ p {
   padding: 15px 0;
 
 }
-
-
-/* This code below may be conflicting with featured */
-
-.main-nav,
-ul,
-li a {
-  font-size: 20px;
-  text-transform: uppercase;
-  font-family: 'Oswald';
-  display: flex;
-  color: white;
-  text-decoration: none;
-  list-style: none;
-  gap: 12px;
-  margin: 0px;
-  justify-content: flex-end;
-}
-
-.main-nav-item {
-  font-family: '';
-}
-
-.main-nav li {
-  padding: 15px;
-}
-
-.main-nav li a:hover,
-.main-nav-item-featured {
-  color: #f2ff00;
-}
-
-/* Above is the css with mix of solution code and my own code to play around with. below is css used with better grasp of naming containers */
 
 /* brain box area  */
 
@@ -189,12 +182,10 @@ li a {
 
 .footer {
   background-color: black;
-  color: white;
+  color: #fff;
   padding: 15px 25px;
+  font-family: 'Lato', sans-serif;
 }
-
-
-
 
 /* Fonts, classes are so I can reuse the styles on a variety of elements */
 /* .merriweather {
