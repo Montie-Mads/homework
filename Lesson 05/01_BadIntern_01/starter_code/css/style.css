@@ -61,7 +61,7 @@ a {
   margin-right: 20px;
   overflow: hidden;
 }
-
+/* this can also work with eliminating one of the margins from other or primary! */
 .otherArticles {
   width: 300px;
   float: left;
@@ -80,8 +80,8 @@ a {
 
 .oldTimeNewsPaper-corestyles p {
   font-size: 20px;
-  margin-bottom: 20;
   margin-bottom: 20px;
+  
 }
 
 .oldTimeNewsPaper-corestyles blockquote {
