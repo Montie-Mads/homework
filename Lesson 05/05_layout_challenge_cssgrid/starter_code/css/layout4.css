@@ -11,13 +11,17 @@ Use Flex-wrap, flex-direction, and flex to control how the header spaces and siz
 
 
 
-.exerciseFooter, .exerciseMain {
+.exerciseFooter,
+.exerciseMain {
     margin: 0 10px 10px 10px;
 }
 
 .exerciseHeader {
-
-
+    display: grid;
+    grid-template-columns:320px 1fr;
+    gap: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
 }
 
 .exerciseHeaderLogo {
@@ -27,33 +31,48 @@ Use Flex-wrap, flex-direction, and flex to control how the header spaces and siz
 
 
 .exerciseHeaderNav {
+    display: grid;
 
 }
 
 .exerciseHeaderNav ul {
-
+    list-style: none;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    /* margin and padding are 0'd out because ul and li come with themcome with  */
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 10px;
+    padding-bottom: 10px;
+    
 }
 
 .exerciseHeaderNav ul li {
 
-
 }
 
 
-.exerciseMainContent {
+.exerciseMain {
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 3fr 1fr;
+    /* grid-template-rows: 200px;  */
+    min-height: 600px;
+}
 
+.exerciseMainContent {
+   
 }
 
 
 .exerciseAdditionalFeatures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    
 
 }
 
-.exerciseAdditionalFeatures .exerciseMarketingFeature {
+.exerciseAdditionalFeatures .exerciseMarketingFeature {}
 
-
-}
-
-.exerciseAdditionalFeatures .exerciseMarketingFeature:first-child {
-
-}
+.exerciseAdditionalFeatures .exerciseMarketingFeature:first-child {}

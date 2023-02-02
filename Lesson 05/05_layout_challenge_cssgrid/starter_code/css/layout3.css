@@ -1,31 +1,41 @@
-
-.exerciseHeader, .exerciseFooter, .exerciseMain {
+.exerciseHeader,
+.exerciseFooter,
+.exerciseMain {
     margin: 0 10px 10px 10px;
+
+
 }
+
+.exerciseMain{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+
+}
+
+/* figured out i didn't write in the main parent */
 
 .exerciseMainFeatures {
-
-
-}
-
-.exerciseMainFeatures .exerciseMarketingFeature {
-
-
-}
-
-.exerciseMainFeatures .exerciseMarketingFeature:first-child {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    /* margin-bottom: 10px; added a margin bottom because the gap didn't show up? .main did not exist on the css had to write it in*/
+    grid-template-rows: 200px;
+/* row effects the height: ; */
 
 }
+
+.exerciseMainFeatures .exerciseMarketingFeature {}
+
+.exerciseMainFeatures .exerciseMarketingFeature:first-child {}
 
 .exerciseAdditionalFeatures {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 10px;
 
 }
 
-.exerciseAdditionalFeatures .exerciseMarketingFeature {
+.exerciseAdditionalFeatures .exerciseMarketingFeature {}
 
-
-}
-
-.exerciseAdditionalFeatures .exerciseMarketingFeature:first-child {
-
-}
+.exerciseAdditionalFeatures .exerciseMarketingFeature:first-child {}

@@ -34,6 +34,8 @@ body {
 .grid01 {
   grid-template-columns: 100px 100px 100px;
   grid-template-rows: 100px;
+  gap: 30px 40px;  
+  /*horizontal verticle*/
 }
 
 .base-child {
