@@ -1,11 +1,214 @@
 body {
   font-family: 'Nunito', Arial, sans-serif;
   font-size: 12px;
+
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
+
+
+
+.ab-topnav-logo {
+  display: block;
+  padding: 10px 30px;
+
+
+}
+
+
+.ab-top-nav {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  align-items: center;
+  font-size: 10px;
+  gap: 20px;
+
+
+
+}
+
+
+.ab-topnav-logo image {
+  max-height: 30px;
+}
+
+
+.ab-top-nav li {
+  list-style: none;
+  font-size: 14px;
+  font-weight: bold;
+
+
+}
+
+.ab-topnav-nav ul {}
+
+
+.ab-top-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Hero Bar */
+
+.ab-hero {
+  background-image: url(melbourne.jpg);
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  display: flex;
+  color: white;
+}
+
+.ab-hero-inner {
+  max-width: 400px;
+  color: white;
+  text-align: center;
+
+}
+
+.ab-hero-inner h1 {
+  font-size: 64px;
+}
+
+.ab-hero-inner p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+/* button */
+
+/* Button */
+.ab-btn,
+.ab-btn:link,
+.ab-btn:visited {
+  display: block;
+  text-decoration: none;
+  background-color: #ff5358;
+  max-width: 240px;
+  padding: 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  border-bottom: 1px solid #e00007;
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ab_btn:hover {
+  background-color: #e00007;
+}
+
+
+/* ab commentary */
+
+.ab-commentary {
+  display: grid;
+  grid-auto-columns: 1fr 1fr;
+  background-color: #efefef;
+  padding: 30px;
+  gap: 30px;
+}
+
+/* locals block */
+
+
+.ab-locals {
+  border: 1px solid #dbdbdbdb;
+  background: white;
+}
+
+.ab-locals>header {
+  background-color: #efefef;
+  overflow: hidden;
+  padding: 10px 20px;
+
+
+}
+
+.ab-locals>header h1 {
+  font-size: 14px;
+}
+
+.ab-locals>div {
+  padding: 10px 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+
+/* featured trio */
+
+.ab_featured_trio {
+  padding: 40px 0;
+}
+
+.ab_featured_trio-header {
+  text-align: center;
+}
+
+.ab_featured_trio_header h1 {
+  font-size: 24px;
+}
+
+.ab_featured_trio_triple_column {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px;
+  gap: 20px;
+}
+
+.ab_neighborhood {
+  border: 1px solid #dbdbdb;
+  background: #efefef;
+  display: grid;
+  grid-template-rows: 300px 90px;
+
+}
+
+.ab_neighborhood>header {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+
+}
+
+#neigh_fitzrow {
+  background-image: url(fitzroy.jpg);
+  background-size: cover;
+}
+
+#neigh_stkilda {
+  background-image: url(st-kilda.jpg);
+  background-size: cover;
+
+}
+
+#neigh_central {
+  background-image: url(central-business-district.jpg);
+  background-size: cover;
+}
+
+
+
+
+
+.ab-topnav-logo .ab-topnav-nav a {}
 
 /* Colors */
 /* Redish / Pink: #ff5358 */
