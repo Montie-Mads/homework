@@ -13,7 +13,51 @@ h6 {
   margin: 0;
 }
 
+/* Topnav new */
 
+.ab-topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 30px;
+
+}
+
+
+.ab-topnav-logo {
+  display: block;
+
+}
+
+.ab-topnav-logo img {
+  max-height: 32px;
+}
+
+.ab-topnav a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.ab-topnav-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+
+}
+
+.ab-topnav li {
+  list-style: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+
+/* .ab-topnav-logo {
+  width: 150px;
+}
 
 .ab-topnav-logo {
   display: block;
@@ -25,7 +69,7 @@ h6 {
 
 .ab-top-nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-end; <---This is where i didn't check to change to space between 2-3-2023
   text-decoration: none;
   align-items: center;
   font-size: 10px;
@@ -55,7 +99,7 @@ h6 {
 .ab-top-nav a {
   text-decoration: none;
   color: black;
-}
+} */
 
 /* Hero Bar */
 
@@ -67,24 +111,36 @@ h6 {
   min-height: 500px;
   display: flex;
   color: white;
+  background-position: center; /* peeked at solution code to see why bikes weren't coming up and googled it */
+  
 }
 
 .ab-hero-inner {
   max-width: 400px;
   color: white;
+
+
+
+
+}
+
+.ab-hero h1 {
+  font-size: 64px;
   text-align: center;
 
 }
 
-.ab-hero-inner h1 {
-  font-size: 64px;
-}
 
-.ab-hero-inner p {
+.ab-hero p {
   font-size: 16px;
   font-weight: bold;
   margin-top: 0;
+  text-align: center;
+  margin-top: 0;
+
 }
+
+
 
 /* button */
 
