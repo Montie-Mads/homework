@@ -348,13 +348,71 @@ html {
 .t-states li {
     list-style: none;
     margin: 0px;
-
 }
 
 
+/* insite area */
 
+.t-insights {
+background-color: white;
+padding: 0px 0px 30px 30px;
+align-items: flex-start;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-right: 90px;
+}
 
+.t-insights p {
+    font-size: 14px;  
+}
 
+.t-insights a{
+    color: #20c063;
+    text-decoration: none;
+}
+
+/* Trulia footer */
+
+.t-footer {
+background-color: #4f565a;
+color: white;
+padding: 10px;
+
+}
+
+.t-footer-links {
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px 10px;
+    
+
+}
+
+.t-footer-links {
+    padding: 20px 0px 0px 0px;
+    
+}
+
+.t-footer-links a,
+.t-footer-linksa:visited {
+    color: rgb(244, 235, 235);
+    text-decoration: none;
+}
+
+.t-legal {
+    color: rgba(194, 187, 187, 0.997);
+    font-size: 12px;
+    text-align: center;
+    margin:0px 10px;
+    padding: 15px 0px 15px 0px;
+    
+}
 /* ### Colors
 Green: #20c063 / RGBA(32,192,99,1)
 Gray: #e8e9ea  / RGBA (232,233,234,1)
