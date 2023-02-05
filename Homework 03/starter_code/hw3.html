@@ -1,35 +1,551 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Homework 3 - Starter Code</title>
-  <link rel="stylesheet" href="./normalize.css">
-  <link rel="stylesheet" href="./style.css">
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - Homework 3 - Starter Code</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <header class="t-Nav-Main">
 
-        <nav class="trulia-nav-left">
+        <nav class="t-nav-left">
 
-            <a href="#" class="trulia-logo-nav"><img src="./images/logo.svg " alt="trulia logo"> 
+            <a href="#" class="t-nav-logo">
+                <img src="images/logo.svg " alt="trulia logo">
             </a>
 
-            <ul class="">
-                <li><a class="t-nav-item" href="#"></a> Buy </li>
-                <li><a class="t-nav-item" href="#"></a> Rent </li>
-                <li><a class="t-nav-item" href="#"></a>  </li>
-                <li><a class="t-nav-item" href="#"></a>  </li>
-                
-            </ul>
+            <ul>
+                <li><a class="t-nav-item" href="/">Buy </a></li>
+                <li><a class="t-nav-item" href="/">Rent </a></li>
+                <li><a class="t-nav-item" href="/">Mortgage</a> </li>
+                <li><a class="t-nav-item" href="/">Local Scoop</a></li>
 
+            </ul>
         </nav>
 
+        <nav class="t-nav-right">
 
+            <ul class>
 
+                <li><a class="t-nav-item" href="/">Saved Homes</a></li>
+                <li><a class="t-nav-item" href="/">Saved Searches</a></li>
+                <li> <a href="/" class="t-nav-item"> <span class="jsir-circle"> j</span>jsir</a></li>
+
+            </ul>
+        </nav>
     </header>
 
+
+    <section class="t-for-sale-box">
+        <div class="t-for-sale-text">
+            <h1>Homes For Sale & Real Estate in 20010</h1>
+            <p>79 homes available on Trulia</p>
+
+
+        </div>
+
+    </section>
+
+    <main class="t-grid">
+
+        <article class="t-grid-item">
+
+            <div class="t-house-image t-house-image-1"></div>
+            <div id="new-box"> </div>
+            </div>
+
+            <ul class="t-house-facts">
+                <li class="t-house-price">
+                    <h1>$475,000</h1> <img class="arrow-svg" src="images/up-sign.svg" alt="">
+                </li>
+
+                <li class="t-house-stats">
+                    <ul>
+
+                        <li class="t-house-beds"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bed-icon.png"
+                                class="t-article-icon">2 bd
+                        </li>
+
+                        <li class="t-house-baths"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bath-icon.png"
+                                class="t-article-icon">2 ba</li>
+
+                        <li class="t-house-sqft">
+                            715 sqft</li>
+                    </ul>
+                <li>
+                    <address class="t-house-address">
+                        3205 Georgia Ave NW #403
+                        Pleasant Plains, Washington, DC</address>
+                </li>
+            </ul>
+            </li>
+
+        </article>
+
+        <!-- house 2 -->
+        <article class="t-grid-item">
+
+            <div class="t-house-image t-house-image-2">
+                <div class="t-new-box">New</div>
+            </div>
+
+
+
+
+            <ul class="t-house-facts">
+                <li class="t-house-price">
+                    <h1>$000,000</h1>
+                </li>
+
+                <li class="t-house-stats">
+                    <ul>
+
+                        <li class="t-house-beds"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bed-icon.png"
+                                class="t-article-icon">2 bd
+                        </li>
+
+                        <li class="t-house-baths"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bath-icon.png"
+                                class="t-article-icon">3 ba</li>
+
+                        <li class="t-house-sqft">
+                            1200 sqft</li>
+                    </ul>
+                <li>
+                    <address class="t-house-address">
+                        3615 10th St NW #B
+                        Columbia Heights, Washington, DC</address>
+                </li>
+            </ul>
+            </li>
+
+        </article>
+
+        <!-- house 3 -->
+        <article class="t-grid-item">
+
+            <div class="t-house-image t-house-image-3">
+
+            </div>
+
+
+
+
+            <ul class="t-house-facts">
+                <li class="t-house-price">
+                    <h1>$600,000</h1>
+                </li>
+
+                <li class="t-house-stats">
+                    <ul>
+
+                        <li class="t-house-beds"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bed-icon.png"
+                                class="t-article-icon">3 bd
+                        </li>
+
+                        <li class="t-house-baths"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bath-icon.png"
+                                class="t-article-icon">2 ba</li>
+
+                        <li class="t-house-sqft">
+                            1100 sqft</li>
+                    </ul>
+                <li>
+                    <address class="t-house-address">
+                        3120 Park Pl NW
+                        Pleasant Plains, Washington, DC</address>
+                </li>
+            </ul>
+            </li>
+
+        </article>
+
+        <!-- house 4-->
+        <article class="t-grid-item">
+
+            <div class="t-house-image t-house-image-4">
+
+            </div>
+
+
+
+
+            <ul class="t-house-facts">
+                <li class="t-house-price">
+                    <h1>$630,000</h1>
+                </li>
+
+                <li class="t-house-stats">
+                    <ul>
+
+                        <li class="t-house-beds"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bed-icon.png"
+                                class="t-article-icon">2 bd
+                        </li>
+
+                        <li class="t-house-baths"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bath-icon.png"
+                                class="t-article-icon">3 ba</li>
+
+                        <li class="t-house-sqft">
+                            1,500 sqft</li>
+                    </ul>
+                <li>
+                    <address class="t-house-address">
+                        3221 Warder St NW #1
+                        Pleasant Plains, Washington, DC </address>
+                </li>
+            </ul>
+            </li>
+
+        </article>
+
+
+
+        <!-- house 5-->
+
+        <article class="t-grid-item">
+
+            <div class="t-house-image t-house-image-5">
+
+            </div>
+
+            <ul class="t-house-facts">
+                <li class="t-house-price">
+                    <h1>$1,295,000</h1>
+                </li>
+
+                <li class="t-house-stats">
+                    <ul>
+
+                        <li class="t-house-beds"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bed-icon.png"
+                                class="t-article-icon">9 bd
+                        </li>
+
+                        <li class="t-house-baths"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bath-icon.png"
+                                class="t-article-icon">6 ba</li>
+
+                        <li class="t-house-sqft">
+                            3100 sqft</li>
+                    </ul>
+                <li>
+                    <address class="t-house-address">
+                        705 Kenyon St NW
+                        Pleasant Plains, Washington, DC </address>
+                </li>
+            </ul>
+            </li>
+
+        </article>
+
+        <!-- house 6-->
+
+        <article class="t-grid-item">
+
+            <div class="t-house-image t-house-image-6">
+
+            </div>
+
+
+
+
+            <ul class="t-house-facts">
+                <li class="t-house-price">
+                    <h1>1,049,000</h1>
+                </li>
+
+                <li class="t-house-stats">
+                    <ul>
+
+                        <li class="t-house-beds"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bed-icon.png"
+                                class="t-article-icon">6 bd
+                        </li>
+
+                        <li class="t-house-baths"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bath-icon.png"
+                                class="t-article-icon">4 ba</li>
+
+                        <li class="t-house-sqft">
+                            2688 sqft</li>
+                    </ul>
+                <li>
+                    <address class="t-house-address">
+                        1363 Oak St NW
+                        Columbia Heights, Washington, DC </address>
+                </li>
+            </ul>
+            </li>
+
+        </article>
+
+        <!-- house 7-->
+        <article class="t-grid-item">
+
+            <div class="t-house-image t-house-image-7">
+
+            </div>
+
+            <ul class="t-house-facts">
+                <li class="t-house-price">
+                    <h1>$720,000</h1>
+                </li>
+
+                <li class="t-house-stats">
+                    <ul>
+
+                        <li class="t-house-beds"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bed-icon.png"
+                                class="t-article-icon">3 bd
+                        </li>
+
+                        <li class="t-house-baths"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bath-icon.png"
+                                class="t-article-icon">3 ba</li>
+
+                        <li class="t-house-sqft">
+                            1850 sqft</li>
+                    </ul>
+                <li>
+                    <address class="t-house-address">
+                        1307 Irving St NW #1
+                        Columbia Heights, Washington, DC </address>
+                </li>
+            </ul>
+            </li>
+
+        </article>
+
+        <!-- house 8-->
+
+        <article class="t-grid-item">
+
+            <div class="t-house-image t-house-image-8">
+                <div class="b-owner-box">for sale by owner</div>
+            </div>
+
+            <ul class="t-house-facts">
+                <li class="t-house-price">
+                    <h1>$760,000</h1>
+                </li>
+
+                <li class="t-house-stats">
+                    <ul>
+
+                        <li class="t-house-beds"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bed-icon.png"
+                                class="t-article-icon">3 bd
+                        </li>
+
+                        <li class="t-house-baths"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bath-icon.png"
+                                class="t-article-icon">3 ba</li>
+
+                        <li class="t-house-sqft">
+                            1920 sqft</li>
+                    </ul>
+                <li>
+                    <address class="t-house-address">
+                        752 Park Rd NW
+                        Columbia Heights, Washington, DC </address>
+                </li>
+            </ul>
+            </li>
+
+        </article>
+
+
+        <!-- house 9-->
+
+
+        <article class="t-grid-item">
+
+            <div class="t-house-image t-house-image-9">
+
+            </div>
+
+            <ul class="t-house-facts">
+                <li class="t-house-price">
+                    <h1>$760,000</h1>
+                </li>
+
+                <li class="t-house-stats">
+                    <ul>
+
+                        <li class="t-house-beds"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bed-icon.png"
+                                class="t-article-icon">3 bd
+                        </li>
+
+                        <li class="t-house-baths"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bath-icon.png"
+                                class="t-article-icon">3 ba</li>
+
+                        <li class="t-house-sqft">
+                            1,715 sqft</li>
+                    </ul>
+                <li>
+                    <address class="t-house-address">
+                        752 Park Rd NW
+                        Columbia Heights, Washington, DC </address>
+                </li>
+            </ul>
+            </li>
+
+        </article>
+
+        <!-- house 10-->
+
+        <article class="t-grid-item">
+
+            <div class="t-house-image t-house-image-10">
+
+            </div>
+
+            <ul class="t-house-facts">
+                <li class="t-house-price">
+                    <h1>$999,000</h1>
+                </li>
+
+                <li class="t-house-stats">
+                    <ul>
+
+                        <li class="t-house-beds"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bed-icon.png"
+                                class="t-article-icon">2 bd
+                        </li>
+
+                        <li class="t-house-baths"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bath-icon.png"
+                                class="t-article-icon">2 ba</li>
+
+                        <li class="t-house-sqft">
+                            715 sqft</li>
+                    </ul>
+                <li>
+                    <address class="t-house-address">
+                        3205 Georgia Ave NW #403
+                        Pleasant Plains, Washington, DC </address>
+                </li>
+            </ul>
+            </li>
+
+        </article>
+        <!-- house 11-->
+
+        <article class="t-grid-item">
+
+            <div class="t-house-image t-house-image-11">
+
+            </div>
+
+            <ul class="t-house-facts">
+                <li class="t-house-price">
+                    <h1>$474,500</h1>
+                </li>
+
+                <li class="t-house-stats">
+                    <ul>
+
+                        <li class="t-house-beds"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bed-icon.png"
+                                class="t-article-icon">2 bd
+                        </li>
+
+                        <li class="t-house-baths"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bath-icon.png"
+                                class="t-article-icon">1 ba</li>
+
+                        <li class="t-house-sqft">
+                            964 sqft</li>
+                    </ul>
+                <li>
+                    <address class="t-house-address">
+                        1356 Kenyon St NW #8
+                        Columbia Heights, Washington, DC </address>
+                </li>
+            </ul>
+            </li>
+
+        </article>
+
+        <!-- house 12-->
+        <article class="t-grid-item">
+
+            <div class="t-house-image t-house-image-12">
+
+            </div>
+
+            <ul class="t-house-facts">
+                <li class="t-house-price">
+                    <h1>$399,000</h1>
+                </li>
+
+                <li class="t-house-stats">
+                    <ul>
+
+                        <li class="t-house-beds"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bed-icon.png"
+                                class="t-article-icon">1 bd
+                        </li>
+
+                        <li class="t-house-baths"><img
+                                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/bath-icon.png"
+                                class="t-article-icon">1 ba</li>
+
+                        <li class="t-house-sqft">
+                            462 sqft</li>
+                    </ul>
+                <li>
+                    <address class="t-house-address">
+                        3205 Georgia Ave NW, #505
+                        Pleasant Plains, Washington, DC </address>
+                </li>
+            </ul>
+            </li>
+
+        </article>
+    </main>
+    <!-- bottom nav -->
+
+    <nav>
+        <section class="t-bottom-nav">
+            <ul class="t-page-ul">
+                <li><a href="/">1</a></li>
+                <li><a href="/">2</a></li>
+                <li><a href="/">3</a></li>
+                <li><a href="/">></a></li>
+            </ul>
+
+            <div class="t-results">
+                <p class="p-results">1 - 30 of 79 results</p>
+
+            </div>
+
+            <ul class="t-states">
+                <li> <a href="/">United States</a></li>
+                <li class="t-great"> > </li>
+                <li> <a href="/">District of Columbia</a></li>
+                <li class="t-great"> > </li>
+                <li><a href="/">Washington</a></li>
+                <li class="t-great"> > </li>
+                <li>20010</li>
+            </ul>
+
+        </section>
+    </nav>
+
+
+    
 
 
 </body>
