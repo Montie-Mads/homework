@@ -20,30 +20,34 @@ html {
     color: white;
     display: flex;
     justify-content: space-between;
+    margin: 0px;
 
 }
 
 .t-Nav-Main ul {
     list-style: none;
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 .t-Nav-Main ul li {
     display: inline-block;
-    margin: 0;
+    margin-left: 0px;
 }
 
 .t-Nav-Main img {
-    /* when i tried to do the svg, the image wouldn't load. Also spent time on trying to see the image when all i needed was to put a bg color on it*/
     height: 30px;
     width: 78px;
+    margin: 0px;
+    padding: 4px 6px 0px 0px;
+    margin-left: 22px;
 }
 
 .t-nav-left,
 .t-nav-right {
     display: flex;
     align-items: center;
-    gap: 5px;
+    justify-content: flex-start;
 }
 
 .t-nav-item,
@@ -51,9 +55,8 @@ html {
 .t-nav-item a {
     color: white;
     font-size: 14px;
-    /* border: 3px solid black; */
-    padding: 0 12px;
     text-decoration: none;
+    margin-left: 25px;
 
 
 }
@@ -74,7 +77,8 @@ html {
 
 .t-nav-logo {
     min-width: 80px;
-    padding: 5px 10px;
+    padding: 0px;
+    margin: 0px;
 }
 
 
@@ -85,24 +89,34 @@ html {
     font-size: 14px;
     justify-content: flex-start;
     align-items: flex-end;
-
-
+    
 }
 
+
+
 .t-for-sale-text {
-    font-size: 14px;
     display: flex;
     align-items: center;
-    margin: 40px 0 0;
+    margin: 0px 0px 5px 0px;
     gap: 30px;
+}
 
-
+.t-normal-text {
+    font-weight: normal;
+    gap: 10px;
 }
 
 .t-for-sale-box h1 {
-    font-size: 16px;
-    margin: 20px;
+    font-size: 14px;
+    margin-left: 30px;
+    padding-top: 30px;
+}
 
+p {
+    margin: 0px;
+    padding-top: 30px;
+    font-size: 14px;
+    
 }
 
 /* Grid Area */
@@ -133,7 +147,7 @@ html {
     background-color: #20c063;
     color: white;
     text-transform: uppercase;
-    width: 30px;
+    width: 35px;
     font-size: 13px;
     border-radius: 5px;
 
@@ -221,7 +235,7 @@ html {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px 0px 0px 10px;
-    margin: 5px 0px;
+    margin: 2px 0px 0px 0px;
 }
 
 .t-house-facts ul {
@@ -232,9 +246,9 @@ html {
 .t-house-facts h1 {
     display: flex;
     justify-content: flex-start;
-    font-size: 15px;
+    font-size: 16px;
     margin: 0px;
-    padding: 0px;
+    padding: 4px 0px 0px 0px;
 }
 
 .t-article-icon {
@@ -259,13 +273,15 @@ html {
     display: flex;
     flex-direction: row;
     padding: 0px 10px 0px 0px;
+    font-size: 14px;
 
 }
 
 .t-house-address {
     color: grey;
     font-style: normal;
-    margin-top: 6px;
+    font-size: 14px;
+
 
 }
 
@@ -280,8 +296,8 @@ html {
 .arrow-svg {
     display: block;
     height: 15px;
-    margin: 0px 10px;
-    padding: 5px 0px 0px 0px;
+    margin: 0px 0px;
+    padding: 0px 0px 0px 0px;
     width: 15px;
 }
 
@@ -354,20 +370,20 @@ html {
 /* insite area */
 
 .t-insights {
-background-color: white;
-padding: 0px 0px 30px 30px;
-align-items: flex-start;
-display: flex;
-flex-direction: column;
-justify-content: center;
-margin-right: 90px;
+    background-color: white;
+    padding: 0px 0px 30px 30px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 90px;
 }
 
 .t-insights p {
-    font-size: 14px;  
+    font-size: 14px;
 }
 
-.t-insights a{
+.t-insights a {
     color: #20c063;
     text-decoration: none;
 }
@@ -375,14 +391,14 @@ margin-right: 90px;
 /* Trulia footer */
 
 .t-footer {
-background-color: #4f565a;
-color: white;
-padding: 10px;
+    background-color: #4f565a;
+    color: white;
+    padding: 10px;
 
 }
 
 .t-footer-links {
-    list-style:none;
+    list-style: none;
     display: flex;
     flex-direction: row;
     font-size: 14px;
@@ -390,13 +406,13 @@ padding: 10px;
     flex-wrap: wrap;
     margin: 0px;
     padding: 0px 10px;
-    
+
 
 }
 
 .t-footer-links {
     padding: 20px 0px 0px 0px;
-    
+
 }
 
 .t-footer-links a,
@@ -409,10 +425,11 @@ padding: 10px;
     color: rgba(194, 187, 187, 0.997);
     font-size: 12px;
     text-align: center;
-    margin:0px 10px;
+    margin: 0px 10px;
     padding: 15px 0px 15px 0px;
-    
+
 }
+
 /* ### Colors
 Green: #20c063 / RGBA(32,192,99,1)
 Gray: #e8e9ea  / RGBA (232,233,234,1)
