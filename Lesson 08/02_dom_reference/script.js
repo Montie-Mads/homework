@@ -7,8 +7,8 @@
  */
 
 // querySelector
-document.querySelector('.my-class-name'); // returns first instance of a class, needs dot before class name
-document.querySelector('#id-of-element'); // returns first instance of a class, needs hash before id name
+document.querySelector('.my-class-name'); // returns first instance of a class, needs dot before class name can also target multiple selectors 
+document.querySelector('#id-of-element'); // returns first instance of a class, needs hash before id name        
 document.querySelector('div.good'); // gets div with class of 'good'
 
 // querySelectorAll
@@ -31,6 +31,7 @@ document.getElementsByClassName('class-name-here')[0]; // returns the first elem
  */
 
 // basic text and style manipulation
+
 const ga = document.getElementById('ga');
 ga.textContent = "look at me using JS!"; // applies text to an element
 ga.style.backgroundColor = "red" // applies a style to the page, must access style property, then CSS property written in camelCase
@@ -55,6 +56,8 @@ const getTheKid = document.getElementById('child-element')
 // comment this next line in and out to see the element get removed/not removed!
 // greatDiv.removeChild(getTheKid);
 
+
+ 
 // Attribute changing
 ga.setAttribute('class', 'great-class-name'); // sets an attribute 'great-class-name' on an element
 ga.removeAttribute('id', 'what-an-id'); // removes 'what-an-id' id from element
