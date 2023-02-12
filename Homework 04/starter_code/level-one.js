@@ -3,40 +3,24 @@
  *
  */
 
-
 let score = 0;
 let ballEl = document.querySelector('.js-ball');
 let scoreEl = document.querySelector('.js-score');
 
-ballEl.addEventListener("click", function () {
-  score += 10;
+// add an event listener so that when you click the ball, it registers.
+ballEl.addEventListener('click', oneUp)
 
-  if (score < 100) {
-    scoreEl.innerText = score;
-  } else {
+//make the function so that the above makes the bellow registers
+function oneUp() {
+  //when ball is clicked, add 10
+  score += 10;
+  //when the ball is clicked, add 10 and add to score
+  scoreEl.innerText = score;
+  //if the score is greater than or equal to 100, the user wins the game!
+  if (score >= 100) {
     declareWinner();
   }
-
-});
-
+}
 function declareWinner() {
   document.body.classList.add('game-over');
 }
-
-// let score = 0;
-// let bBall = document.querySelector('.js-ball');
-// let bScore = document.querySelector('.js-score')
-
-// bBall.addEventListener("click", function () {
-//   score += 10;
-//   if (score < 100) {
-//     bScore.innerText = score;
-//   } else {
-//     declareWinner();
-//   }
-
-// });
-
-// function declareWinner() {
-//   document.body.classList.add('game-over');
-// }
