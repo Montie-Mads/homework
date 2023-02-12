@@ -6,57 +6,70 @@ let score = 0;
 let arenaEl = document.querySelector('.js-arena');
 let scoreEl = document.querySelector('.js-score');
 
+//these are to target each individual ball
+
 let bBallA = document.querySelector('.js-ballA')
 let bBallB = document.querySelector('.js-ballB')
 let bBallC = document.querySelector('.js-ballC')
 
 
-bBallA.addEventListener("click", function () {
-    score += 20;
+//first Ball
 
-    if (score < 100) {
-        scoreEl.innerText = score;
-    } else {
+//add an even listener to target ball A with oneUpA
+bBallA.addEventListener('click', oneUpA)
+
+//make the function so the ball is clickable 
+function oneUpA() {
+    //when ballA is clicked, add 20
+    score += 20;
+    //when the score is added, add to score
+    scoreEl.innerText = score;
+    //if the score is greater or = to 100, user wins the game
+    if (score >= 100) {
         declareWinner();
     }
-
-});
+}
 
 function declareWinner() {
     document.body.classList.add('game-over');
 }
+
+
 
 //second Ball
 
-bBallB.addEventListener("click", function () {
+bBallB.addEventListener('click', oneUpB)
+
+function oneUpB() {
     score += 5;
-
-    if (score < 100) {
-        scoreEl.innerText = score;
-    } else {
-        declareWinner();
+    scoreEl.innerText = score;
+    if (score >= 100) {
+        declareWinner;
     }
-
-});
-
+}
 function declareWinner() {
     document.body.classList.add('game-over');
 }
+
+
 
 //third ball
 
-bBallC.addEventListener("click", function () {
-    score += 10;
+//specify that the event starter will target ball C with oneupC
 
-    if (score < 100) {
-        scoreEl.innerText = score;
-    } else {
+bBallC.addEventListener('click', oneUpC)
+
+function oneUpC() {
+    score += 10;
+    scoreEl.innerText = score;
+    if (score >= 100) {
         declareWinner();
     }
-
-});
+}
 
 function declareWinner() {
     document.body.classList.add('game-over');
 }
+
+
 
