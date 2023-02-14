@@ -55,7 +55,6 @@ function declareWinner() {
 
 //third ball
 
-//specify that the event starter will target ball C with oneupC
 
 bBallC.addEventListener('click', oneUpC)
 
