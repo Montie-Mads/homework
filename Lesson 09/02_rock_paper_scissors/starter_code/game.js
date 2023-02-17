@@ -9,7 +9,9 @@ function computerChoice() {
 
     //make a random number between 1 and 3
     let = weNeedAName = Math.ceil(Math.random() * 3);
+
     // if number 1, return rock
+    
     if (weNeedAName == 1) {
         return "rock";
     } else if (weNeedAName == 2) {
