@@ -6,7 +6,6 @@
 
 document.getElementById('stopButton').addEventListener("click", function () {
     document.getElementById('stopLight').classList.add('red');
-
     document.getElementById('slowLight').classList.remove("yellow");
     document.getElementById('goLight').classList.remove("green");
 
