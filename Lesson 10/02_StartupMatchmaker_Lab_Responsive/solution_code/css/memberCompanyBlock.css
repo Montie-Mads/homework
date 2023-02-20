@@ -101,7 +101,6 @@
         padding-bottom:0;
     }
 
-
     .memberCompanyLogoHaus {
         flex-basis:100%;
         width: 100%;
@@ -110,7 +109,6 @@
 
     .memberCompanyLogoHaus > img {
         flex-basis:100%;
-
         max-width: 35%;
         margin: 10px auto;
     }
