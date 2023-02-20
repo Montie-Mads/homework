@@ -89,10 +89,42 @@ a {
     display: none;
 }
 
-@media  (max-width: 639px) {
-    
+@media screen and (max-width: 800px) and (min-width:640px){
+    .site_header .contentContainer {
+        display: block;
+    }
 
+    .main-nav {
+        margin-top: 20px;
+    }
 }
+
+
+@media screen and (max-width: 639px) {
+    .main-nav {
+        margin-top: 20px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .main-nav ul {
+        display: block;
+    }
+
+    .main-nav li {
+        margin-bottom: 20px;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .main-nav-mobilehide {
+        display: none;
+    }
+}
+
+/* this section above: .main-nav-mobile-hide {display: none;} makes the nav dissapear by turning off the main nav. main-nav-mobile-hide is a second name for the main nav so we can easily target it */
 
 
 
@@ -103,6 +135,7 @@ a {
 /* // Create a media query that only applies when the screen is LESS than 640px */
 
 /* @media screen () */
+
 
 /* BODY LAYOUT */
 
