@@ -32,14 +32,62 @@ img {
 
 .subtle-button {
   background-color: goldenrod;
+  transition: 1s ease-in-out;
+}
+
+.subtle-button:hover {
+  background-color: gold;
 }
 
 .sideways-gradient {
+  background-image: linear-gradient(to left,
+      blue, red);
   height: 200px;
   margin: 10px;
+}
+
+.mcconaughey {
+  animation: spinme 3s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spinme {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 
 .mcconaughey-caption {
   text-align: center;
+  animation: fadein 6s infinite;
+}
+
+.ice-cream-dance {
+  animation: dancedance 4s infinite;
+}
+
+@keyframes dancedance {
+  0% {
+    transform: rotate(0), skew(0);
+  }
+
+  33% {
+    opacity: 0.5;
+    transform: rotate(360deg);
+  }
+
+  66% {
+    transform: skew(-20deg);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: rotate(0), skew(0);
+    opacity: 1;
+  }
 }
