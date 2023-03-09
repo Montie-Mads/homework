@@ -13,21 +13,13 @@ document.addEventListener('DOMContentLoaded', function (event) {
     e.preventDefault();
     // Toggle the navigation
     let toggleNav = document.querySelector('.trulia-nav > nav ul');
-    //loop the function to hide the nav
+    
     for (let i = 0; i < toggleNav.length; i++) {
       toggleNav[i].classList.toggle('trulia-nav-mobilehide');
     }
 
 
   });
-
-
-  // function toggleNav() {
-  //   const navs = document.querySelector('.trulia-nav-toggle')
-  //   navs.forEach(nav.classList.toggle('.trulia-nav-mobilehide'));
-  //   document.querySelector('trulia-nav-toggle').addEventListener('click', toggleNav)
-
-  // }
 
 
 
