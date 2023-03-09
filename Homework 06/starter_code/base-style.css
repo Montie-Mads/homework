@@ -165,12 +165,14 @@ a {
 @media screen and (max-width:1024px) {
   .trulia-nav {
     display: block;
+    height: auto;
   }
 
   .trulia-nav-toggle {
     display: block;
     color: white;
     font-size: 29px;
+    margin-right: 26px;
   }
 
   .trulia-nav ul li {
@@ -180,18 +182,22 @@ a {
   .trulia-nav-logo {
     height: 30px;
     width: 80px;
+    padding-left: 10px;
+    padding-top: 20px;
+
   }
 
   .trulia-nav-left,
   .trulia-nav-right {
     justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   .trulia-nav-left ul,
   .trulia-nav-right ul {
-
     display: block;
     width: 100%;
+    margin: 0;
   }
 
   .trulia-nav-left ul li,
@@ -203,7 +209,7 @@ a {
   .trulia-nav-item:visited {
     display: block;
     font-size: 25px;
-    margin: 2px 0px 2px 2px;
+    margin: 2px 0px 10px 2px;
   }
 
   .trulia-nav-mobilehide {
@@ -274,12 +280,24 @@ p {
 
 }
 
-@media screen and (min-width: 1600) {
+@media screen and (min-width: 1600px) {
   .trulia-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
+
 }
 
+@media screen and (min-width: 1200px) and (max-width:1599px) {
+  .trulia-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .trulia-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
 
 .trulia-grid-item {
