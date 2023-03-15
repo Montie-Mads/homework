@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
         element.addEventListener("click", function () {
             this.parentElement.classList.toggle("breedContainerLG");
             if (this.getAttribute('src') == "img/240px-Gnome-window-close.svg.png") {
-                this.setAttribute('src', "img/48px-Gnome-list-add.svg");
+                this.setAttribute('src', "img/48px-Gnome-list-add.svg.png");
             } else {
                 this.setAttribute('src', "img/240px-Gnome-window-close.svg.png");
             }
