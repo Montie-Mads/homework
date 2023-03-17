@@ -8,7 +8,7 @@
 /* Sock Hero */
 
 .sockHero {
-    background: url('images/sockItToMetime.png');
+    background: url(./images/sockHero.png);
     background-position: center;
     background-size: cover;
 }

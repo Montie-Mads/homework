@@ -10,9 +10,12 @@ You have a new e-commerce client that has asked your company to build a product 
 
 * The page bookmark is showing the wrong title. It should be "Sock Commerce"
 * The hero image is missing (should be sockHero.png)
+
 * None of the products are showing
+
 * The product title should be rgb(60,60,60) and not the horrible color it currently is
 * The product images aren't showing
+
 * None of the product links seem to be working (title, picture, or cta)
 * The price isn't showing
 * The size selectors:
